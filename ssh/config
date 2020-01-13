@@ -1,0 +1,18 @@
+# On-Trucks
+Host dev
+        HostName 13.228.67.67
+        User hendro
+        Port 22
+        IdentityFile ~/.ssh/pudge.pem
+
+Host gitlab
+        Hostname 18.139.210.254
+        User ubuntu
+        Port 22
+        IdentityFile ~/.ssh/pudge.pem
+
+Host stage
+        Hostname 52.221.41.153
+        User hendro
+        Port 22
+        IdentityFile ~/.ssh/pudge.pem
